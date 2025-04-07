@@ -1,3 +1,45 @@
 body {
     margin: 0;
 }
+
+.container {
+    display: flex;
+}
+
+.logo-container, .form-container {
+    position: relative;
+    top: 0;
+    bottom: 0;
+}
+
+.background-image {
+    width: 30vw;
+    height: 100vh;
+}
+
+.odin-logo {
+    background-color: #00000080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    top: 22%;
+    gap: 5px;
+}
+
+.odin-text {
+    color: white;
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.background-image-src {
+    color: white;
+    font-size: 0.9em;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    bottom: 0;
+    left: 26%;
+}
