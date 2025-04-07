@@ -6,7 +6,7 @@ body {
     display: flex;
 }
 
-.logo-container, .form-container {
+.logo-container{
     position: relative;
     top: 0;
     bottom: 0;
