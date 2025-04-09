@@ -1,5 +1,6 @@
-body {
+body, fieldset {
     margin: 0;
+    padding: 0;
 }
 
 a {
@@ -8,6 +9,10 @@ a {
 
 .container {
     display: flex;
+}
+
+.form-container {
+    width: 100%;
 }
 
 .logo-container{
@@ -35,6 +40,7 @@ a {
 
 .odin-text {
     color: white;
+    font-weight: bold;
     font-size: 3em;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -45,10 +51,52 @@ a {
     font-family: 'Courier New', Courier, monospace;
     position: absolute;
     bottom: 0;
-    left: 26%;
+    left: 17%;
 }
 
 .form-input-container {
     display: flex;
     gap: 20px;
+}
+
+.form-intro, 
+.form-hook, 
+.form-cta, 
+.form-input-left, 
+.form-input-right,
+.account-log-in,
+button {
+    font-weight: bold;
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 5%;
+}
+
+.form-intro {
+    margin-top: 12%;
+}
+
+p > label {
+    font-size: 0.8em;
+}
+
+p > input {
+    width: 200px;
+    padding: 2%;
+    border: 1px solid #E5E7EB;
+}
+
+button {
+    margin-top: 3%;
+    padding: 1%;
+    width: 200px;
+    color: white;
+    background-color: #596D48;
+    border: none;
+    border-radius: 5px;
+}
+
+.account-log-in {
+    margin-top: 3%;
+    font-size: 0.8em;
 }
